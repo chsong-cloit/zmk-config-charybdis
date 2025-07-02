@@ -3,8 +3,9 @@ if SHIELD_CHARYBDIS_RIGHT
 config ZMK_KEYBOARD_NAME
 	default "Charybdis"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
+# 동글 사용을 위해 central 역할 제거
+# config ZMK_SPLIT_BLE_ROLE_CENTRAL
+#	default y
 
 endif
 
